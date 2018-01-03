@@ -1,0 +1,19 @@
+#Windows ENV
+alias sublw="subl.exe"
+alias open="explorer.exe"
+alias note="notepage.exe"
+
+
+# Git Stuff
+alias ga="git add"
+alias gaa="git add ."
+alias gl="git log --oneline --graph"
+alias gc="git commit -m"
+alias glog="git log --graph --pretty=format:'\''%Cred%h%Crest -%C(yellow)%d%Crest %s %Cgreen(%cr) %C(bold blue)<%an>%Crest'\'' --abbrev-commit'"
+alias gp="git push github"
+alias gs="git status"
+
+
+
+
+
