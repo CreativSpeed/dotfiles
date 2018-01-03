@@ -104,11 +104,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 
-#if [ -r ~/.rbenv/bin ]; then
-#  export PATH=$HOME/.rbenv/bin:$PATH
-#  eval "$(rbenv init -)"
-#fi
-
 if [[ -f ~/.dircolors ]]; then eval $(dircolors -b ~/.dircolors)
 elif [[ -f /etc/DIR_COLORS ]]; then eval $(dircolors -b /etc/DIR_COLORS)
 fi

@@ -129,11 +129,6 @@ if [ -r ~/.nvm ]; then
 fi
 
 
-if [ -r ~/.rbenv/bin ]; then
-  export PATH=$HOME/.rbenv/bin:$PATH
-  eval "$(rbenv init -)"
-fi
-
 #CUSTOM ALIAS
 # alias subl='subl.exe -a'
 alias explorer='explorer.exe'
