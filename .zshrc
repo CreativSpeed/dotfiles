@@ -93,7 +93,8 @@ source $ZSH/oh-my-zsh.sh
 
 
 # aliases
-source ~/.aliases.sh 
+source ~/.aliases
+source ~/.functions
 
 alias zshconfig="vim ~/.zshrc"
 #alias subl="subl.exe"

@@ -3,6 +3,9 @@ alias sublw="subl.exe"
 alias open="explorer.exe"
 alias note="notepage.exe"
 
+#puma-dev
+alias puma-dev="~/.puma-dev/puma-dev"
+
 
 # Git Stuff
 alias ga="git add"
