@@ -97,7 +97,6 @@ source ~/.aliases
 source ~/.functions
 
 alias zshconfig="vim ~/.zshrc"
-#alias subl="subl.exe"
 #alias psq="psql.exe"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
