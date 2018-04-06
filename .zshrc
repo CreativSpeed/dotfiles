@@ -108,6 +108,8 @@ if [[ -f ~/.dircolors ]]; then eval $(dircolors -b ~/.dircolors)
 elif [[ -f /etc/DIR_COLORS ]]; then eval $(dircolors -b /etc/DIR_COLORS)
 fi
 
+export PATH=~/.local/bin:$PATH
+
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
@@ -116,3 +118,4 @@ export DISPLAY=:0
 
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 alias config='/usr/bin/git --git-dir=/home/bachir/.cfg/ --work-tree=/home/bachir'
+export PATH=$HOME/bin:$PATH

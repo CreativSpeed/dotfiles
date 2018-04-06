@@ -138,3 +138,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 export DISPLAY=:0
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
 alias config='/usr/bin/git --git-dir=/home/bachir/.cfg/ --work-tree=/home/bachir'
+export PATH=$HOME/bin:$PATH
