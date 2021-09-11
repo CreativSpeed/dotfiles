@@ -1,7 +1,6 @@
 [user]
 	bame = 
-	email = bachir@creativspeed.com
-	signingkey = FB619FE5EBAFBF51
+	email = bachir@creativspeed.com	
 	name = Bachir Brahimi
 [core]
 	editor = vim
